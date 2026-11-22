@@ -65,22 +65,26 @@
 | [DreamBooth Worker] | Runpod Serverless worker for the DreamBooth endpoint | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-dreambooth) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-dreambooth?style=social) |
 | [DeOldify worker] | Runpod Serverless worker for the restoration of old photos endpoint | [kodxana] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/kodxana/worker-deoldify) ![GitHub stars](https://img.shields.io/github/stars/kodxana/worker-deoldify?style=social) |
 | [Kandinsky Worker] | Runpod worker for the Kandinsky endpoint | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-kandinsky) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-kandinsky?style=social) |
+| [Kokoro TTS Worker] | Kokoro-82M text-to-speech with an OpenAI-compatible /v1/audio/speech API, 54 voices in 8 languages, weights baked into the image | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-kokoro-tts) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-kokoro-tts?style=social) |
 | [RVC Serverless] | Simple RVC Serverless Endpoint for Runpod built upon Mangio-RVC-Fork | [chavinlo] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/chavinlo/rvc-runpod) ![GitHub stars](https://img.shields.io/github/stars/chavinlo/rvc-runpod?style=social) |
 | [Serverless GGML] | GGML Worker image for streaming predictions from large language models quantized with GGML | [OpenAccess-AI-Collective] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/OpenAccess-AI-Collective/servereless-runpod-ggml) ![GitHub stars](https://img.shields.io/github/stars/OpenAccess-AI-Collective/servereless-runpod-ggml?style=social) |
 | [Stable Diffusion v1 Worker] | Runpod worker for all Stable Diffusion v1 endpoints | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-stable_diffusion_v1) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-stable_diffusion_v1?style=social) |
 | [Stable Diffusion v2 Worker] | Runpod worker for the Stable Diffusion v2 endpoints | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-stable_diffusion_v2) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-stable_diffusion_v2?style=social) |
 | [Template Worker] | A simple worker that can be used as a starting point to build your own custom Runpod Endpoint API worker | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-template) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-template?style=social) |
+| [Unsloth Fine-Tuning Worker] | Unsloth LoRA / QLoRA fine-tuning of Hugging Face LLMs from a chat or alpaca dataset, returns a LoRA adapter | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-unsloth-finetune) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-unsloth-finetune?style=social) |
 | [Whisper Worker] | Whisper Worker for Runpod: Processing and transcribing audio with various Whisper models | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-whisper) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-whisper?style=social) |
 
 [Aphrodite Engine Worker]: https://github.com/joachimchauvet/worker-aphrodite-engine
 [DreamBooth Worker]: https://github.com/runpod-workers/worker-dreambooth
 [DeOldify worker]: https://github.com/kodxana/worker-deoldify
 [Kandinsky Worker]: https://github.com/runpod-workers/worker-kandinsky
+[Kokoro TTS Worker]: https://github.com/prilojject/runpod-kokoro-tts
 [RVC Serverless]: https://github.com/chavinlo/rvc-runpod
 [Serverless GGML]: https://github.com/OpenAccess-AI-Collective/servereless-runpod-ggml
 [Stable Diffusion v1 Worker]: https://github.com/runpod-workers/worker-stable_diffusion_v1
 [Stable Diffusion v2 Worker]: https://github.com/runpod-workers/worker-stable_diffusion_v2
 [Template Worker]: https://github.com/runpod-workers/worker-template
+[Unsloth Fine-Tuning Worker]: https://github.com/prilojject/runpod-unsloth-finetune
 [Whisper Worker]: https://github.com/runpod-workers/worker-whisper
 
 [runpod-workers]: https://github.com/runpod-workers
@@ -88,6 +92,7 @@
 [chavinlo]: https://github.com/chavinlo
 [OpenAccess-AI-Collective]: https://github.com/OpenAccess-AI-Collective
 [joachimchauvet]: https://github.com/joachimchauvet
+[prilojject]: https://github.com/prilojject
 ## Resources
 
 | Resource                                  | Description                                  |
