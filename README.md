@@ -63,6 +63,7 @@
 |--------|-------------|--------|------------|
 | [Aphrodite Engine Worker] | Runpod Serverless worker for Aphrodite Engine | [joachimchauvet] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/joachimchauvet/worker-aphrodite-engine) ![GitHub stars](https://img.shields.io/github/stars/joachimchauvet/worker-aphrodite-engine?style=social) |
 | [DreamBooth Worker] | Runpod Serverless worker for the DreamBooth endpoint | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-dreambooth) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-dreambooth?style=social) |
+| [Diffusion-Pipe LoRA Trainer] | Multi-model LoRA trainer (SDXL, Wan 2.1/2.2, FLUX.1-dev) with diffusion-pipe and Deepspeed pipeline parallelism | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-diffusion-pipe-trainer) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-diffusion-pipe-trainer?style=social) |
 | [DeOldify worker] | Runpod Serverless worker for the restoration of old photos endpoint | [kodxana] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/kodxana/worker-deoldify) ![GitHub stars](https://img.shields.io/github/stars/kodxana/worker-deoldify?style=social) |
 | [Kandinsky Worker] | Runpod worker for the Kandinsky endpoint | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-kandinsky) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-kandinsky?style=social) |
 | [Kokoro TTS Worker] | Kokoro-82M text-to-speech with an OpenAI-compatible /v1/audio/speech API, 54 voices in 8 languages, weights baked into the image | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-kokoro-tts) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-kokoro-tts?style=social) |
@@ -77,6 +78,7 @@
 
 [Aphrodite Engine Worker]: https://github.com/joachimchauvet/worker-aphrodite-engine
 [DreamBooth Worker]: https://github.com/runpod-workers/worker-dreambooth
+[Diffusion-Pipe LoRA Trainer]: https://github.com/prilojject/runpod-diffusion-pipe-trainer
 [DeOldify worker]: https://github.com/kodxana/worker-deoldify
 [Kandinsky Worker]: https://github.com/runpod-workers/worker-kandinsky
 [Kokoro TTS Worker]: https://github.com/prilojject/runpod-kokoro-tts
