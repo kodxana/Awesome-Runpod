@@ -63,24 +63,48 @@
 |--------|-------------|--------|------------|
 | [Aphrodite Engine Worker] | Runpod Serverless worker for Aphrodite Engine | [joachimchauvet] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/joachimchauvet/worker-aphrodite-engine) ![GitHub stars](https://img.shields.io/github/stars/joachimchauvet/worker-aphrodite-engine?style=social) |
 | [DreamBooth Worker] | Runpod Serverless worker for the DreamBooth endpoint | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-dreambooth) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-dreambooth?style=social) |
+| [Diffusion-Pipe LoRA Trainer] | Multi-model LoRA trainer (SDXL, Wan 2.1/2.2, FLUX.1-dev) with diffusion-pipe and Deepspeed pipeline parallelism | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-diffusion-pipe-trainer) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-diffusion-pipe-trainer?style=social) |
 | [DeOldify worker] | Runpod Serverless worker for the restoration of old photos endpoint | [kodxana] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/kodxana/worker-deoldify) ![GitHub stars](https://img.shields.io/github/stars/kodxana/worker-deoldify?style=social) |
+| [FramePack F1 Image-to-Video] | Headless official FramePack-F1 image-to-video: start image + motion prompt, returns a 30 fps MP4; no Gradio | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-framepack) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-framepack?style=social) |
+| [GPT-SoVITS Voice Cloning Trainer] | Few-shot GPT-SoVITS voice training (v2ProPlus, v2Pro, v5turbo LoRA) from a zip of short audio clips; returns a SoVITS .pth and a GPT .ckpt | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-gpt-sovits-trainer) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-gpt-sovits-trainer?style=social) |
+| [JoyCaption Batch Captioner] | Batch-caption images for LoRA / diffusion datasets with official JoyCaption Beta One; returns sidecar .txt + captions.json | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-joycaption) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-joycaption?style=social) |
 | [Kandinsky Worker] | Runpod worker for the Kandinsky endpoint | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-kandinsky) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-kandinsky?style=social) |
+| [Kokoro TTS Worker] | Kokoro-82M text-to-speech with an OpenAI-compatible /v1/audio/speech API, 54 voices in 8 languages, weights baked into the image | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-kokoro-tts) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-kokoro-tts?style=social) |
+| [LLaMA-Factory Trainer] | Headless LlamaFactory v0.9.5 LoRA/QLoRA fine-tuning (SFT, DPO, ORPO, SimPO, KTO) from a YAML or form fields; returns an adapter | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-llama-factory) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-llama-factory?style=social) |
+| [Qwen-VL Batch Captioner] | Batch-caption images for LoRA / diffusion datasets with official Qwen3-VL-4B-Instruct; returns sidecar .txt + captions.json, optional short VQA | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-qwen-vl-caption) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-qwen-vl-caption?style=social) |
+| [RVC Voice Conversion Trainer] | Train official RVC (v2, 40 kHz, F0=rmvpe) from a zip of one speaker's audio; returns inference-ready .pth + .index | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-rvc-trainer) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-rvc-trainer?style=social) |
 | [RVC Serverless] | Simple RVC Serverless Endpoint for Runpod built upon Mangio-RVC-Fork | [chavinlo] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/chavinlo/rvc-runpod) ![GitHub stars](https://img.shields.io/github/stars/chavinlo/rvc-runpod?style=social) |
+| [SeedVR2 Upscale] | Batch upscale and restore videos and photos with official SeedVR2 (one-step); send an image, video, or zip and get same-type files plus results.json | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-seedvr2-upscale) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-seedvr2-upscale?style=social) |
 | [Serverless GGML] | GGML Worker image for streaming predictions from large language models quantized with GGML | [OpenAccess-AI-Collective] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/OpenAccess-AI-Collective/servereless-runpod-ggml) ![GitHub stars](https://img.shields.io/github/stars/OpenAccess-AI-Collective/servereless-runpod-ggml?style=social) |
 | [Stable Diffusion v1 Worker] | Runpod worker for all Stable Diffusion v1 endpoints | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-stable_diffusion_v1) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-stable_diffusion_v1?style=social) |
 | [Stable Diffusion v2 Worker] | Runpod worker for the Stable Diffusion v2 endpoints | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-stable_diffusion_v2) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-stable_diffusion_v2?style=social) |
+| [TabbyAPI EXL3 Worker] | Fast OpenAI-compatible API for large LLMs in EXL3 quants via official TabbyAPI + ExLlamaV3; default Qwen3-8B-exl3 4.0bpw on 24 GB | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-tabbyapi) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-tabbyapi?style=social) |
 | [Template Worker] | A simple worker that can be used as a starting point to build your own custom Runpod Endpoint API worker | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-template) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-template?style=social) |
+| [Unsloth Fine-Tuning Worker] | Unsloth LoRA / QLoRA fine-tuning of Hugging Face LLMs from a chat or alpaca dataset, returns a LoRA adapter | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-unsloth-finetune) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-unsloth-finetune?style=social) |
+| [Video LoRA Trainer] | Train Wan 2.1 / Wan 2.2 LoRAs with musubi-tuner from a zip of videos or images; returns a .safetensors LoRA | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-video-lora-trainer) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-video-lora-trainer?style=social) |
 | [Whisper Worker] | Whisper Worker for Runpod: Processing and transcribing audio with various Whisper models | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-whisper) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-whisper?style=social) |
 
 [Aphrodite Engine Worker]: https://github.com/joachimchauvet/worker-aphrodite-engine
 [DreamBooth Worker]: https://github.com/runpod-workers/worker-dreambooth
+[Diffusion-Pipe LoRA Trainer]: https://github.com/prilojject/runpod-diffusion-pipe-trainer
 [DeOldify worker]: https://github.com/kodxana/worker-deoldify
+[FramePack F1 Image-to-Video]: https://github.com/prilojject/runpod-framepack
+[GPT-SoVITS Voice Cloning Trainer]: https://github.com/prilojject/runpod-gpt-sovits-trainer
+[JoyCaption Batch Captioner]: https://github.com/prilojject/runpod-joycaption
 [Kandinsky Worker]: https://github.com/runpod-workers/worker-kandinsky
+[Kokoro TTS Worker]: https://github.com/prilojject/runpod-kokoro-tts
+[LLaMA-Factory Trainer]: https://github.com/prilojject/runpod-llama-factory
+[Qwen-VL Batch Captioner]: https://github.com/prilojject/runpod-qwen-vl-caption
+[RVC Voice Conversion Trainer]: https://github.com/prilojject/runpod-rvc-trainer
 [RVC Serverless]: https://github.com/chavinlo/rvc-runpod
+[SeedVR2 Upscale]: https://github.com/prilojject/runpod-seedvr2-upscale
 [Serverless GGML]: https://github.com/OpenAccess-AI-Collective/servereless-runpod-ggml
 [Stable Diffusion v1 Worker]: https://github.com/runpod-workers/worker-stable_diffusion_v1
 [Stable Diffusion v2 Worker]: https://github.com/runpod-workers/worker-stable_diffusion_v2
+[TabbyAPI EXL3 Worker]: https://github.com/prilojject/runpod-tabbyapi
 [Template Worker]: https://github.com/runpod-workers/worker-template
+[Unsloth Fine-Tuning Worker]: https://github.com/prilojject/runpod-unsloth-finetune
+[Video LoRA Trainer]: https://github.com/prilojject/runpod-video-lora-trainer
 [Whisper Worker]: https://github.com/runpod-workers/worker-whisper
 
 [runpod-workers]: https://github.com/runpod-workers
@@ -88,6 +112,7 @@
 [chavinlo]: https://github.com/chavinlo
 [OpenAccess-AI-Collective]: https://github.com/OpenAccess-AI-Collective
 [joachimchauvet]: https://github.com/joachimchauvet
+[prilojject]: https://github.com/prilojject
 ## Resources
 
 | Resource                                  | Description                                  |
