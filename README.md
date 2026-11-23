@@ -72,6 +72,7 @@
 | [Stable Diffusion v2 Worker] | Runpod worker for the Stable Diffusion v2 endpoints | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-stable_diffusion_v2) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-stable_diffusion_v2?style=social) |
 | [Template Worker] | A simple worker that can be used as a starting point to build your own custom Runpod Endpoint API worker | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-template) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-template?style=social) |
 | [Unsloth Fine-Tuning Worker] | Unsloth LoRA / QLoRA fine-tuning of Hugging Face LLMs from a chat or alpaca dataset, returns a LoRA adapter | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-unsloth-finetune) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-unsloth-finetune?style=social) |
+| [Video LoRA Trainer] | Train Wan 2.1 / Wan 2.2 LoRAs with musubi-tuner from a zip of videos or images; returns a .safetensors LoRA | [prilojject] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/prilojject/runpod-video-lora-trainer) ![GitHub stars](https://img.shields.io/github/stars/prilojject/runpod-video-lora-trainer?style=social) |
 | [Whisper Worker] | Whisper Worker for Runpod: Processing and transcribing audio with various Whisper models | [runpod-workers] | [![GitHub Repo](https://img.shields.io/badge/Repo-Github-brightgreen?style=flat-square&logo=github)](https://github.com/runpod-workers/worker-whisper) ![GitHub stars](https://img.shields.io/github/stars/runpod-workers/worker-whisper?style=social) |
 
 [Aphrodite Engine Worker]: https://github.com/joachimchauvet/worker-aphrodite-engine
@@ -85,6 +86,7 @@
 [Stable Diffusion v2 Worker]: https://github.com/runpod-workers/worker-stable_diffusion_v2
 [Template Worker]: https://github.com/runpod-workers/worker-template
 [Unsloth Fine-Tuning Worker]: https://github.com/prilojject/runpod-unsloth-finetune
+[Video LoRA Trainer]: https://github.com/prilojject/runpod-video-lora-trainer
 [Whisper Worker]: https://github.com/runpod-workers/worker-whisper
 
 [runpod-workers]: https://github.com/runpod-workers
